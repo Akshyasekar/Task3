@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#products div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
